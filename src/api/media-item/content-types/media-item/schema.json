@@ -4,7 +4,7 @@
   "info": {
     "singularName": "media-item",
     "pluralName": "media-items",
-    "displayName": "MediaItem",
+    "displayName": "MediaVideoItem",
     "description": ""
   },
   "options": {
@@ -14,13 +14,6 @@
   "attributes": {
     "title": {
       "type": "string"
-    },
-    "type": {
-      "type": "enumeration",
-      "enum": [
-        "audio",
-        "video"
-      ]
     },
     "link": {
       "type": "string"

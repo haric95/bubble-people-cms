@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "media_audio_items",
+  "info": {
+    "singularName": "media-audio-item",
+    "pluralName": "media-audio-items",
+    "displayName": "MediaAudioItem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Artist": {
+      "type": "string",
+      "default": "Bubble People"
+    },
+    "Album": {
+      "type": "string"
+    },
+    "HostLink": {
+      "type": "string"
+    },
+    "BandcampLink": {
+      "type": "string"
+    },
+    "Cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
