@@ -4,7 +4,8 @@
   "info": {
     "singularName": "media-item",
     "pluralName": "media-items",
-    "displayName": "MediaItem"
+    "displayName": "MediaItem",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,16 @@
     },
     "link": {
       "type": "string"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
