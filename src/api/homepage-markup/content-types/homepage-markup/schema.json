@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_markups",
+  "info": {
+    "singularName": "homepage-markup",
+    "pluralName": "homepage-markups",
+    "displayName": "HomepageMarkup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomepageMarkup": {
+      "type": "richtext"
+    }
+  }
+}
