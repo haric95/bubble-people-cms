@@ -28,6 +28,9 @@
         "videos",
         "audios"
       ]
+    },
+    "Index": {
+      "type": "integer"
     }
   }
 }
