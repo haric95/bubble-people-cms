@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_image_mobiles",
+  "info": {
+    "singularName": "homepage-image-mobile",
+    "pluralName": "homepage-image-mobiles",
+    "displayName": "HomepageImageMobile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomepageImagesMobile": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
