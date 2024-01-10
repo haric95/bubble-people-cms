@@ -30,7 +30,7 @@
       "type": "richtext"
     },
     "bio": {
-      "type": "text"
+      "type": "richtext"
     }
   }
 }
