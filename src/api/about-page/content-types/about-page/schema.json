@@ -28,6 +28,9 @@
     },
     "text2": {
       "type": "richtext"
+    },
+    "bio": {
+      "type": "text"
     }
   }
 }
