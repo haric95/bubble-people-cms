@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepage-image-mobile",
     "pluralName": "homepage-image-mobiles",
-    "displayName": "HomepageImageMobile"
+    "displayName": "HomepageImageMobile",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,14 +13,15 @@
   "pluginOptions": {},
   "attributes": {
     "HomepageImagesMobile": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
